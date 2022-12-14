@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	
+	<script>
+		function myfun1()
+		{
+			myWindow=window.open('https://htmlpreview.github.io/?https://github.com/zyf200206/b1/blob/main/bb1','用户登录页面','width=300,height=150,left=450,top=250');
+			
+			
+			myWindow.focus();	
+		}
+		
+		function myfun2()
+		{
+			myWindow=window.open('https://htmlpreview.github.io/?https://github.com/zyf200206/b2/blob/main/bb2','用户注册页面','width=300,height=150,left=450,top=250');
+			
+			myWindow.focus();	
+		}
+	</script>
+	
+	<body>
+		
+		<input type="button" onclick="myfun1()" value="登录"/> |
+		<input type="button" onclick="myfun2()" value="注册"/>
+		<p>这是主页面</p>
+		
+    </body>
+</html>
